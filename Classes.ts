@@ -17,7 +17,7 @@ class Person {
 
 class worker extends Person {
   start() {
-    return `${this.age} ${this.address}`;
+    return `${this.age} ${/*this.address*/ ""}`;
   }
 }
 class manager extends worker {}
